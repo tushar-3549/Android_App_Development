@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60sp"
+        android:gravity="center"
+        android:text="1st Activity "
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/usernameEdiTTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="User name"
+        android:textSize="40sp" />
+
+    <EditText
+
+        android:id="@+id/passwordEdiTTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:gravity="center"
+        android:text="Log in"
+        android:textAllCaps="true"
+        android:onClick="func"
+        android:textSize="50sp"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>
