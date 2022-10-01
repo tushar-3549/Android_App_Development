@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LabTaskQuizApp</string>
+    <string name="ques_1">Question 1 : What is the longest sea beach in the world?</string>
+    <string name="ques_2">Question 2 : Who is the owner of Android OS ?</string>
+</resources>
