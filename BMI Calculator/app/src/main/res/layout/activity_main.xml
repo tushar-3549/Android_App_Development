@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Insert Height"
+            android:textStyle="normal"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="12dp"
+            />
+        <EditText
+            android:id="@+id/heightId"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            android:cursorVisible="false"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_border"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="30sp"
+            android:text="Insert Weight"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="12dp"
+            />
+        <EditText
+            android:id="@+id/weightId"
+            android:layout_marginTop="30dp"
+            android:layout_width="215dp"
+            android:cursorVisible="false"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_border"
+            />
+
+    </LinearLayout>
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="func"
+            android:layout_marginTop="40dp"
+            android:text="Calculate BMI"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:id="@+id/resultId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        />
+
+
+</LinearLayout>
