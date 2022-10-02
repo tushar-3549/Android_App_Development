@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCheckBoxDemo</string>
+    <string name="question">Where do you live?</string>
+    <string name="ans1">Dhaka</string>
+    <string name="ans2">Rajshahi</string>
+    <string name="ans3">Tangail</string>
+    <string name="ans4">Chittagong</string>
+</resources>
