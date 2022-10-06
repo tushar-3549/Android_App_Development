@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AlertDialogDemo</string>
+    <string name="btn_name">Exit</string>
+    <string name="title_name">Alert Title</string>
+    <string name="msg_name">Do you want to Exit?</string>
+</resources>
