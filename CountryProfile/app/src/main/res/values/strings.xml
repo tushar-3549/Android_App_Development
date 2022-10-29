@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CountryProfile</string>
+    <string name="bd_name">Bangladesh</string>
+    <string name="ind_name">India</string>
+    <string name="pak_name">Pakistan</string>
+    <string name="bd_info">
+        Bangladesh officially the People Republic of Bangladesh, is a country in South Asia\n
+        Capital : Dhaka\n
+        Population : 165 million people\n
+        Currency : Bangladeshi Taka\n
+        Prime Minister : Shekh Hasina\n
+        Official Language : Bangali.
+    </string>
+    <string name="ind_info">
+        India officially the Republic of India , is a country in South Asia\n
+        Capital : New-Delhi\n
+        Population: 1,417,173,173\n
+        Currency : Indian Rupee\n
+        Prime Minister : Norengdra Modi\n
+        Official Language : Hindi.
+    </string>
+    <string name="pak_info">
+        Pakistan, populous multiethnic country of South Asia\n
+        Capital : Karachi\n
+        Population : 212 million people\n
+        Currency : Pakistan Rupee\n
+        Prime Minister : Imran Khan\n
+        Official Language : Urdu
+
+    </string>
+</resources>
