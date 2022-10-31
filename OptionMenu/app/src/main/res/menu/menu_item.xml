@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingID"
+        android:title="Setting"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/homeID"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item
+        android:id="@+id/profileID"
+        android:title="Profile"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/feedback"
+        android:title="Feed Back"
+        app:showAsAction="never"
+        />
+
+</menu>
