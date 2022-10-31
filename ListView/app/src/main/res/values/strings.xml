@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string-array name="player">
+        <item>Sakib Al Hasan (C)</item>
+        <item>Tamim Iqbal (VC)</item>
+        <item>Musfiqur Rahim (WK)</item>
+        <item>Afif Hossain</item>
+        <item>Mahmudullah</item>
+        <item>Sabbir Rahman</item>
+        <item>Mosaddek Hossain</item>
+        <item>Taskin</item>
+        <item>Masrafi</item>
+        <item>Miraj</item>
+        <item>Mustafijur Rahman</item>
+    </string-array>
+</resources>
