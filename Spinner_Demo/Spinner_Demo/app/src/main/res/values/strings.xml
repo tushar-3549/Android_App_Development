@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spinner_Demo</string>
+    <string-array name="gender_list">
+
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>
