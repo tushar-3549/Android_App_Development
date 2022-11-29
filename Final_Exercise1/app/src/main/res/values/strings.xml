@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Final_Exercise1</string>
+    <string name="ques">
+        <item>BMI Calculator</item>
+        <item>USD to BDT Converter</item>
+        <item>Your ID</item>
+        <item>About me</item>
+    </string>
+</resources>
